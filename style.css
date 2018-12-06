@@ -1,10 +1,42 @@
 *{
   box-sizing: border-box;
   text-align: center;
+  margin: 10px 20px;
+  font-size: 25px;
+  background: gray;
 }
 
-header, footer{
+header, footer, nav{
   background-color: beige;
-  font-size: 25px;
   padding: 15px;
+}
+
+#section{
+  background-color: beige;
+  height: 200px;
+  float: left;
+  width: 45%;
+
+}
+
+#article{
+  background-color: gray;
+  margin-top: 20px;
+  padding: 15px
+}
+
+.heading,.paragraph{
+  background-color: beige;
+  padding-top: 10px
+}
+#aside{
+  float: right;
+  background-color: beige;
+  height: 200px;
+  width: 45%;
+  padding: 15px;
+}
+footer{
+  clear: both;
+  margin: 20px, 0;
 }
